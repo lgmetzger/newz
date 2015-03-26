@@ -1,6 +1,6 @@
 <?php
 
-define('URL', '/new/public/');
+define('URL', '/newz/public/');
 
 define('DB_TYPE', 'mysql');
 define('DB_HOST', 'localhost');

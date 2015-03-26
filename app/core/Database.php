@@ -2,7 +2,7 @@
 
 class Database extends PDO {
 	public function __construct() {
-		parent::__construct('mysql:host=localhost;dbname=news', 'root', '');
+		parent::__construct('mysql:host=localhost;dbname=news;charset=utf8', 'root', '');
 	}
 
 	public function select($sql, $array = array(), $fetchMode = PDO::FETCH_ASSOC)
